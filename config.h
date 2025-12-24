@@ -1,0 +1,20 @@
+#pragma once
+
+#define SOFT_I2C_SDA_PIN GP0
+#define SOFT_I2C_SCL_PIN GP1
+
+#define MATRIX_ROWS 6
+#define MATRIX_COLS 17
+
+#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 200
+#define RGB_MATRIX_DEFAULT_VAL 50
+
+// Optional: limit effects to save flash
+#define RGB_MATRIX_FRAMEBUFFER_EFFECTS
+#define RGB_MATRIX_KEYPRESSES
+
+#define ENCODER_ENABLE_PULLUPS
+
+
+
+
